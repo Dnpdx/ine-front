@@ -21,7 +21,7 @@ export default function Home({entradas}) {
       description={'Consultas de la Base de datos de Conductores'}
       >
        <div className="flex justify-center font-extrabold text-4xl bg-black overflow-hidden">
-           <h2 className="text-left text-amber-300 p-4">Consultas</h2>
+           <h2 className="text-left text-[#D1007F] p-4">Consultas</h2>
         </div>
         <main className="container grid md:grid-cols-2 gap-4 md:p-20 sm:p-4 sm:my-4 sm:grid-cols-1 ">
           

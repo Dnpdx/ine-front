@@ -10,7 +10,7 @@ export default function Entrada({entrada}){
   return (
 
         
-        <div className="bg-white m-4 overflow-hidden rounded-xl shadow-lg hover:shadow-xl border-solid border-4 border-amber-300 flex flex-col content-center items-center justify-center">
+        <div className="bg-white m-4 overflow-hidden rounded-xl shadow-lg hover:shadow-xl border-solid border-4 border-[#D1007F] flex flex-col content-center items-center justify-center">
             <div className="mx-4 mt-4">
               <Image className="w-auto rounded-lg" src={imgAuto.data.attributes.url} width={500} height={500} alt="imagen del auto" />
             </div>
