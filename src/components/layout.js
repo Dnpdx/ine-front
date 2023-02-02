@@ -7,6 +7,7 @@ export default function Layout({children, title= '', description = ''}) {
         <>
             <Head>
                 <title>{` INE CONSULTAS - ${title}`}</title>
+                <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content={description} />
             </Head>
             <Navbar />            
