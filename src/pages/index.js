@@ -2,6 +2,7 @@
 import Layout from '@/components/layout';
 import { useRouter } from 'next/router';
 import Entrada from '../components/entrada';
+import Head from 'next/head';
 
 
 
@@ -20,6 +21,9 @@ export default function Home({entradas}) {
       title={'Inicio'}
       description={'Consultas de la Base de datos de Conductores'}
       >
+         <Head> 
+        <link rel="icon" href="/favicon.ico" />
+        </Head>
        <div className="flex justify-center font-extrabold text-4xl bg-black overflow-hidden">
            <h2 className="text-left text-[#D1007F] p-4">Consultas</h2>
         </div>
